@@ -1,0 +1,125 @@
+.backdrop {
+    background-color: #121810;
+}
+
+.toolbar{
+    border-bottom: 1px solid #cacaca;
+    height: 80px;
+    /* background-color: #ff0000; */
+}
+
+.container{
+    width: 960px;
+    margin: 20px auto 50px auto;
+    /* margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto; */
+    /* background-color: blue; */
+}
+.judul {
+    /* background-color: #a18181; */
+    /* border-bottom: 2px solid #a8a8a8;     */
+}
+
+/* Bagian tulisan */
+h1,h2 {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif, Helvetica, Arial;
+}
+h1{
+    color: #cdcdcd;
+    font-size: 45px;
+}
+
+h2{
+    font-size: 20px;
+    /* box-shadow: 0px -35px #ff0000 inset; */
+    color: #cdcdcd;
+    opacity: 0.7;
+    margin-top: 5px;
+    
+}
+p.author-text {
+    font-family: Serif;
+    font-size: 20;
+    color: #aaaaaa;
+    
+}
+span.date {
+    font-family: Serif;
+    font-size: 15;
+    color: rgb(107, 106, 106);
+}
+/* Bagian tulisan */
+
+
+.author-image {
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 5px;
+    width: 2%;
+    height: 3%;
+}
+.image1 {
+    display: block;
+    margin: 0px auto 0px auto;
+    width: 75%;
+  }
+.image2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    height: auto;
+    /* object-fit: fill; */
+    /* background-color: red; */
+    /* height: auto; */
+
+}
+p.main-text {
+    font-size: 23px;
+    color: #aaaaaa;
+    text-align: justify;
+    font-family: serif;
+    text-indent: 50px;
+}
+p.main-text2 {
+    font-size: 23px;
+    color: #aaaaaa;
+    text-align: justify;
+    font-family: serif;
+    text-indent: 50px;
+}
+a:link {
+    color: #aaaaaa;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #aaaaaa;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+a img{
+    width: auto;
+    height: 5%;
+    float: right;
+    margin: 0px 5px 0px 5px;
+}
